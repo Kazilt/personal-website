@@ -12,7 +12,7 @@ title                    : "Anish Kanduri"
 title_separator          : "-"
 name                     : &name "Anish Kanduri"
 description              : &description "Anish's page"
-url                      : https://kazilt.github.io/personal-website # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://anishkanduri.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Kazilt/personal-website"
 
