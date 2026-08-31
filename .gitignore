@@ -7,6 +7,13 @@ local/
 # Ignore the Gemfile that is generated
 Gemfile.lock
 
+# Ignore local bundler gem installs
+.bundle/
+vendor/
+
+# Ignore Sass cache
+.sass-cache/
+
 # Ingore files created by npm
 node_modules
 package-lock.json
