@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anish Kanduri: Software Engineer</title>
+<meta name="description" content="Anish Kanduri is a software engineer at Meta working on ads ML systems, with prior experience at AWS and GTRI. Georgia Tech CS, highest honors.">
+<link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container">
+    <a href="/" class="nav-mark">Anish<span class="dot">.</span></a>
+    <div class="nav-links">
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="/files/resume.pdf">Resume</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow">Software Engineer at Meta</p>
+      <h1 class="headline">Hey, I'm Anish.<br>I make <span class="accent">ads a little smarter</span> for a living.</h1>
+      <p class="hero-sub">Georgia Tech grad, now living in San Francisco and working on Meta's Ads ML team. Before that I was moving data around at AWS and poking at malware at GTRI. Outside of work I build iOS apps and mess around with machine learning.</p>
+      <div class="hero-actions">
+        <a href="/files/resume.pdf" class="btn btn-primary">Download Resume ↓</a>
+        <a href="#projects" class="btn">See projects</a>
+      </div>
+    </div>
+    <div class="hero-photo reveal">
+      <div class="photo-glow"></div>
+      <img src="/images/profile.png" alt="Portrait of Anish Kanduri" width="475" height="475" loading="eager">
+    </div>
+  </div>
+</header>
+
+<section id="experience">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Experience</p>
+      <h2 class="section-title">Where I've worked.</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-when">
+          <p class="when-role">Software Engineer</p>
+          <p class="when-org">Meta</p>
+          <p class="when-date">Feb 2025 – present · Menlo Park, CA</p>
+        </div>
+        <p class="timeline-body">Working on Ads ML, mostly around helping models learn from what actually happens after someone sees an ad, not just the click.</p>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-when">
+          <p class="when-role">Software Development Engineer Intern</p>
+          <p class="when-org">AWS</p>
+          <p class="when-date">May 2024 – Aug 2024 · Seattle, WA</p>
+        </div>
+        <p class="timeline-body">Spent the summer automating metadata replication across 30+ regions on tables with 200M+ items each, and got the slowest region's latency way down. Also built out the testing, metrics, and alerting for the whole pipeline.</p>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-when">
+          <p class="when-role">Software Engineering Intern</p>
+          <p class="when-org">GTRI</p>
+          <p class="when-date">Jun 2023 – Apr 2024 · Atlanta, GA</p>
+        </div>
+        <p class="timeline-body">Worked alongside researchers on cyber threat analysis, building tooling to visualize threat trends across different data sources. Got to use React, Python, and Rust for malware inspection and DNS traffic analysis.</p>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-when">
+          <p class="when-role">President</p>
+          <p class="when-org">GITMAD</p>
+          <p class="when-date">Aug 2022 – Dec 2024 · Atlanta, GA</p>
+        </div>
+        <p class="timeline-body">Led Georgia Tech's mobile app development club for two and a half years, ran workshops, coordinated project teams, and worked with corporate partners on events. Membership more than tripled while I was president.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Projects</p>
+      <h2 class="section-title">Things I've built.</h2>
+      <p class="section-lede">A mix of shipped apps and machine learning projects, done for fun or for research.</p>
+    </div>
+
+    <div class="feature-row reveal">
+      <div class="feature-copy">
+        <p class="feature-index">01 · iOS App</p>
+        <h3 class="feature-title">ApexSet: a native iOS workout tracker.</h3>
+        <p class="feature-body">Logs a set in one thumb, then shows how your lifts compare to real population strength standards, Beginner through Elite. 100% offline, no accounts, no ads, no trackers. Built end-to-end in Swift.</p>
+        <a href="https://apexset.anishkanduri.com" class="feature-link">Visit site ↗</a>
+      </div>
+      <div class="feature-shot">
+        <img src="/images/apexset-percentile.png" alt="ApexSet percentile and relative strength charts for Squat" loading="lazy">
+      </div>
+    </div>
+
+    <div class="feature-row reverse reveal">
+      <div class="feature-copy">
+        <p class="feature-index">02 · Machine Learning</p>
+        <h3 class="feature-title">Categorizing Federal Reserve press releases.</h3>
+        <p class="feature-body">Developer on a vertically integrated project at the Financial Services Innovation Lab that uses machine learning to categorize Federal Reserve press releases for market research. Owned development, code reviews, and project planning.</p>
+        <span class="feature-tag">Georgia Tech FSIL · Jan 2024 – Dec 2024</span>
+      </div>
+      <div class="feature-shot feature-shot-plain">
+        <div class="stat-card">
+          <div class="stat-card-num">Fed Press Releases</div>
+          <div class="stat-card-label">Classified by category using an ML pipeline built for market researchers</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="feature-row reveal">
+      <div class="feature-copy">
+        <p class="feature-index">03 · Machine Learning</p>
+        <h3 class="feature-title">Classifying solar flares with 99.4% accuracy.</h3>
+        <p class="feature-body">Used Scikit-Learn to classify solar flares from vector magnetic field data across 8,874 solar records collected between May 2010 and December 2019, selecting key features to reach 99.4% predictive accuracy.</p>
+        <a href="https://kazilt.github.io/4641-Project/" class="feature-link">View project ↗</a>
+        <span class="feature-tag">Feb 2024 – May 2024</span>
+      </div>
+      <div class="feature-shot">
+        <img src="/images/accuracy.png" alt="Solar flare classification accuracy chart" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="container">
+    <div class="privacy-band reveal">
+      <div class="skills-grid">
+        <div>
+          <p class="eyebrow">Skills</p>
+          <h2 class="section-title">Tools I reach for.</h2>
+        </div>
+        <div class="skill-groups">
+          <div class="skill-group">
+            <p class="skill-label">Languages</p>
+            <div class="chips">
+              <span class="chip">Python</span><span class="chip">Java</span><span class="chip">TypeScript</span><span class="chip">JavaScript</span><span class="chip">Kotlin</span><span class="chip">Rust</span><span class="chip">C</span><span class="chip">SQL</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <p class="skill-label">Frameworks &amp; Tools</p>
+            <div class="chips">
+              <span class="chip">React</span><span class="chip">React Native</span><span class="chip">HTML/CSS</span><span class="chip">Git</span><span class="chip">Agile</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <p class="skill-label">Cloud &amp; Infra</p>
+            <div class="chips">
+              <span class="chip">AWS</span><span class="chip">IAM</span><span class="chip">DynamoDB</span><span class="chip">Lambda</span><span class="chip">CDK</span><span class="chip">GCP</span><span class="chip">Firebase</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <p class="skill-label">Machine Learning</p>
+            <div class="chips">
+              <span class="chip">Scikit-Learn</span><span class="chip">Machine Learning</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="container">
+    <div class="edu-band reveal">
+      <div>
+        <p class="eyebrow">Education</p>
+        <h2 class="section-title">Georgia Institute of Technology</h2>
+        <p class="edu-sub">B.S. Computer Science, Highest Honors, Dec 2024 · Atlanta, GA</p>
+        <p class="edu-detail">Concentration in Intelligence &amp; Information Networks. Coursework in Data Structures &amp; Algorithms, Machine Learning, Natural Language Processing, and Systems &amp; Networks.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="container footer-grid">
+    <div>
+      <p class="eyebrow">Contact</p>
+      <h2 class="section-title">Let's talk.</h2>
+      <p class="footer-sub">Based in San Francisco. Open to interesting conversations about ads ML, infra, or mobile apps.</p>
+    </div>
+    <div class="footer-links">
+      <a href="mailto:anish@kanduri.dev">anish@kanduri.dev</a>
+      <a href="https://www.linkedin.com/in/anish-kanduri/">LinkedIn ↗</a>
+      <a href="https://github.com/Kazilt">GitHub ↗</a>
+      <a href="/files/resume.pdf">Resume ↓</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© 2026 Anish Kanduri.</p>
+  </div>
+</footer>
+
+<script src="/assets/script.js"></script>
+</body>
+</html>
